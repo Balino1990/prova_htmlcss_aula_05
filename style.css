@@ -1,0 +1,28 @@
+.vitrine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff8f0;
+}
+
+.bolo {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #d2691e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 20px;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bolo:hover {
+    transform: scale(1.05);
+    background-color: #a0522d;
+}
